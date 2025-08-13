@@ -1,0 +1,5 @@
+- name: Configurar servidor DNS no FreeBSD
+  hosts: freebsd
+  become: true
+  roles:
+    - unbound
