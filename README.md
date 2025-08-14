@@ -47,9 +47,3 @@ ansible-lab-dns/ ├── inventory/ │   └── hosts.yml ├── playbo
 Este projeto está licenciado sob a MIT License.
 
 💬 Dúvidas ou sugestões? Sinta-se à vontade para abrir uma issue ou enviar um pull request!
-
----
-
-Se quiser, posso adaptar para inglês ou incluir instruções específicas para o BIND, NSD ou outro software DNS que você esteja usando. Quer que eu inclua exemplos de arquivos de zona ou templates também?
-
-
