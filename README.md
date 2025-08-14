@@ -41,8 +41,8 @@ ansible-lab-dns/
 
    ansible-playbook -i inventory/hosts.yml playbooks/dns.yml
 
-   📚 Funcionalidades
-- Instalação automática do BIND (ou outro servidor DNS)
+📚 Funcionalidades
+-  Instalação automática do BIND (ou outro servidor DNS)
 - Configuração de zonas autoritativas
 - Criação de arquivos de zona com templates Jinja2
 - Aplicação de boas práticas de segurança (permissões, chroot, etc.)
