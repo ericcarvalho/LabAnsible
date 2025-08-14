@@ -18,7 +18,19 @@ Automatizar a instalação e configuração de um servidor DNS autoritativo em F
 - VirtualBox / Vagrant / QEMU (opcional para testes locais)
 
 ## 📁 Estrutura do Projeto
-ansible-lab-dns/ ├── inventory/ │   └── hosts.yml ├── playbooks/ │   └── dns.yml ├── roles/ │   └── dns/ │       ├── tasks/ │       ├── templates/ │       └── defaults/ ├── vars/ │   └── dns_vars.yml └── README.md
+ansible-lab-dns/
+├── inventory/
+│   └── hosts.yml
+├── playbooks/
+│   └── dns.yml
+├── roles/
+│   └── dns/
+│       ├── defaults/
+│       ├── tasks/
+│       └── templates/
+├── vars/
+│   └── dns_vars.yml
+└── README.md
 
 ## 🚀 Como Usar
 
